@@ -1,0 +1,186 @@
+* {
+          margin: 0;
+          padding: 0;
+}
+
+body {
+          background-color: black;
+          margin: 0px;
+          padding: 0px;
+          margin-top: 0px;
+          ;
+}
+
+#navbar li {
+          font-size: 1.3em;
+          display: inline;
+          margin: 25px;
+          border-radius: 75%;
+}
+
+#navbar a {
+          color: white;
+          text-decoration: none;
+}
+
+#navbar ul {
+          margin-top: 25px;
+}
+
+#navbar {
+
+          display: flex;
+          margin: auto;
+          padding: auto;
+          background-image: url("https://dw9to29mmj727.cloudfront.net/promo/2016/6226-SeriesHeaders_DN_2000x800.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 80vh;
+}
+
+#plot {
+          margin-top: 0px;
+          color: whitesmoke;
+}
+
+#characters {
+          display: inline;
+}
+
+#light img {
+          height: 500px;
+          border-radius: 50%;
+}
+
+#light {
+          display: inline;
+}
+
+.grid-char {
+          display: grid;
+}
+
+#logo img {
+          margin-left: 5px;
+          margin-top: 5px;
+          height: 75px;
+          width: 75px;
+          border-radius: 100%;
+}
+
+#navbar {
+          position: relative;
+}
+
+#navbar::before {
+          content: "";
+          background-color: black;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
+          z-index: -1;
+          opacity: 0.7;
+}
+
+#navbar ul li a:hover {
+          color: black;
+          background-color: white;
+          border-radius: 25%;
+}
+
+#light-img {
+          display: inline;
+          height: 25vh;
+          width: 5000px;
+}
+.review{  float: right;
+          height: 500px;
+          width: 500px;
+}
+
+.review{ 
+          display: inline-block;
+          height: 500px;
+          margin-right: 500px;
+}
+#count{
+          position: absolute;
+          justify-content: center;
+          font-size: 4rem;
+}
+.btn{
+          position: relative;
+          background-color: black;
+          font-size: 1.5rem;
+          padding: 10px;
+          margin: 5px;
+}
+#btn-leave{
+          color:red;
+}
+#btn-reset{
+          color:white
+}
+.review1{
+          border: 5px solid black;
+          background-color: green;
+}
+.reviewh3{
+          font-size: 2rem;
+          margin: 150px 0px 100px 0px;
+}
+.l-img{
+          height: 500px;
+          width: 500px;
+          border-radius: 50%;
+}
+#lawliet{
+          padding-top: 100px;
+}
+#reviewh3{
+          font-size: 2rem;
+}
+.ryuk-img{
+          display: inline;
+          height: 25vh;
+          height: 450px;
+          width: 450px;
+          border-radius: 50%;
+          margin-bottom: 50px;
+}
+#ryuk{
+          display: inline;
+}
+h1{
+          font-size: 2rem;
+}
+#char-head{
+          font-size: 3rem;
+          margin-bottom: 50px;
+          margin-top: 50px;
+}
+#plot{
+          background-color:rgba(0,0,0);
+}
+#facts{   margin-top:50px ;
+          color:yellowgreen;
+          font-size: 3rem;
+}
+#facts>h1{
+          color: aqua;
+}
+#facts>p{
+          color: slateblue;
+          font-size:large;
+}
+#trailer{
+          height: auto;
+          width: auto;
+}
+#trailer{
+          display: flex;
+          height: 393px;
+          width: 4000px;
+}
